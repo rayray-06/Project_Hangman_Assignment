@@ -1,2 +1,8 @@
 # Project_Hangman_Assignment
-This is a repo for our hangman project made up of a team of 3
+This is a repo for our hangman project made up of a team of three. Rayyan, Maleeha and Bridget 
+## Project overview
+....
+## Project specification 
+....
+## Target audiance 
+....
