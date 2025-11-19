@@ -17,7 +17,10 @@ The project's target demographic is young adults and teenagers between the ages 
 - The system will allow for the game to start from he main menu
 - The system will allow users to input thier own word to use for the other player
 - The game will display blank lines taht wouold indicate the legnth of the word and everytime a letter is guessed correctly the letter would fill in the blank
-  
+- The game will reduce the number of attempts whne a player guesses wrong
+- When a guess is incorrect the hangman ui will change
+- The sysetm will not allow the same letter to be inputted twice
+- The system should detect when all attempts have been used ad should display a you lose screen 
 ### nonfunctional requirements 
 ...
 
