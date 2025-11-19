@@ -8,6 +8,7 @@ The overall aim of this project is to make a siple and engaging mobile version o
 The project's target demographic is young adults and teenagers between the ages of 13 and 20.  This age group is a fantastic choice for a mobile Hangman game because they typically like compact, casual games without sophisticated controls or lengthy instructions. Most individuals in this range are already familiar with the word game Hangman, so it's simple for them to figure out the rules swiftly.
 ## User profiles
 <img width="567" height="362" alt="image" src="https://github.com/user-attachments/assets/d72b5e51-d698-4501-9d20-0f297d0b4d60" />
+
 ## Functional and nonfunctional project 
 ### functional requirements 
 ...
