@@ -9,7 +9,7 @@ The project's target demographic is young adults and teenagers between the ages 
 ## User profiles
 <img width="567" height="362" alt="image" src="https://github.com/user-attachments/assets/d72b5e51-d698-4501-9d20-0f297d0b4d60" />
 
-## Functional and nonfunctional project 
+## Functional and nonfunctional requirements
 ### functional requirements 
 ...
 ### nonfunctional requirements 
