@@ -49,8 +49,8 @@ The project aims to serve young adults together with teenagers who fall within t
 ## Potential risks to the project’s success: (not including time management)
 ...
 
-
-
+## Software development strategy
+...
 
 
 
