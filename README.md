@@ -28,7 +28,15 @@ The project's target demographic is young adults and teenagers between the ages 
 -  The app shouldnt be too complicated so it does not use too much battery
 
 ## system requiremnets
-### Hardware
+### Hardware 
+-  A mobile device that can run lightwieght mobile application, along with a touchscreen
+-  The device has to be able to run python
+-  The device has to have a standard screen size
+-  Enough storage to install any neccesary files
+
+### Software 
+- A mobile friendly framework to run the game on
+- connection to the internet to play multiplayer 
 
 
 
