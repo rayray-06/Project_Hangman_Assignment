@@ -52,6 +52,32 @@ The project aims to serve young adults together with teenagers who fall within t
 ## Software development strategy
 ...
 
+## Flowchart(will complete later)
+...
+
+## Game State Management(Will complete later)
+...
+
+## Contribution to Project
+### Rayyan:
+- Created the repo
+- wrote up the project overview
+- wrote up the project specification
+- created a target audiance fot the game
+- done functional requirements
+- done non functional requirements
+- done system software requirements
+- done system hardware requirements
+- created the structure for the readme file
+- created a test plan that we can add to throughout the project 
+
+### Bridget:
+- Created one detailed user profile  
+
+### maleeha:
+- created one detailed  user profile 
+
+
 
 
 
