@@ -27,5 +27,8 @@ The project's target demographic is young adults and teenagers between the ages 
 -  The system should be able to handle errors efficiently
 -  The app shouldnt be too complicated so it does not use too much battery
 
+## system requiremnets
+### Hardware
+
 
 
