@@ -22,7 +22,10 @@ The project's target demographic is young adults and teenagers between the ages 
 - The sysetm will not allow the same letter to be inputted twice
 - The system should detect when all attempts have been used ad should display a you lose screen 
 ### nonfunctional requirements 
-...
+- The game should have a clear and visually apealling interface
+-  All buttons and text should be formatted properly for mobile screen size
+-  The system should be able to handle errors efficiently
+-  The app shouldnt be too complicated so it does not use too much battery
 
 
 
