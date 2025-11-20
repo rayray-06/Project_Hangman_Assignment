@@ -40,5 +40,18 @@ The project aims to serve young adults together with teenagers who fall within t
 - A mobile friendly framework to run the game on
 - connection to the internet to play multiplayer 
 
+## Mock-ups
+...
+
+## Basic storyboard 
+...
+
+## Potential risks to the project’s success: (not including time management)
+...
+
+
+
+
+
 
 
