@@ -69,7 +69,8 @@ The project aims to serve young adults together with teenagers who fall within t
 - done system software requirements
 - done system hardware requirements
 - created the structure for the readme file
-- created a test plan that we can add to throughout the project 
+- created a test plan that we can add to throughout the project
+- delegating tasks to other team members and giving them deadlines to complete the work by 
 
 ### Bridget:
 - Created one detailed user profile  
