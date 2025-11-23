@@ -44,7 +44,8 @@ The project aims to serve young adults together with teenagers who fall within t
 ...
 
 ## Basic storyboard 
-...
+<img width="1156" height="1521" alt="image" src="https://github.com/user-attachments/assets/7698678a-f3da-4896-8b82-6d41c943051d" />
+
 
 ## Potential risks to the project’s success: (not including time management)
 ...
@@ -63,7 +64,7 @@ The project aims to serve young adults together with teenagers who fall within t
 - Created the repo
 - wrote up the project overview
 - wrote up the project specification
-- created a target audiance fot the game
+- created a target audience for the game
 - done functional requirements
 - done non functional requirements
 - done system software requirements
@@ -73,7 +74,9 @@ The project aims to serve young adults together with teenagers who fall within t
 - delegating tasks to other team members and giving them deadlines to complete the work by 
 
 ### Bridget:
-- Created one detailed user profile  
+- Created one detailed user profile
+-  Created the mockups
+-  Created the basic storyboard of the game 
 
 ### maleeha:
 - created one detailed  user profile 
