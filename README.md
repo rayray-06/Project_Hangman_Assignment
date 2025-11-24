@@ -48,7 +48,8 @@ The project aims to serve young adults together with teenagers who fall within t
 
 
 ## Potential risks to the project’s success: (not including time management)
-...
+1) Technical skill gaps: some users may not be familiar or have much experience with the software being used in this project which could lead to challenges while implementing certain features e.g multiplayer
+2) 
 
 ## Software development strategy
 ...
