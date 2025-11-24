@@ -52,7 +52,8 @@ The project aims to serve young adults together with teenagers who fall within t
 2) Multi player synchronisation issues: As the game is going to be running on different devices at the same time, there is a risk that the game states may become out of sync if the database doesn’t update correctly or quickly enough. 
 3) Internet connection issues: Multiplayer mode relies on stable internet connection. if internet connection is slow or unstable for one user that could cause delays or incorrect game updates.
 4) User interface challenges: If the ui is not designed clearly it users may be hard for users to navigate the game smoothly. Since the target audience is 13–20 clarity and simplicity are important.
-5) 
+5) Handling player disconnection: if one player leaves the game mid match the system might not be able to handle or recognize the disconnection which could distrupt the current game session.
+6) Duplicate room codes: If the room code generator creates the same code twice by accident, two different games could end up sharing the same room and cause issues.
 ## Software development strategy
 ...
 
@@ -74,7 +75,8 @@ The project aims to serve young adults together with teenagers who fall within t
 - done system hardware requirements
 - created the structure for the readme file
 - created a test plan that we can add to throughout the project
-- delegating tasks to other team members and giving them deadlines to complete the work by 
+- delegating tasks to other team members and giving them deadlines to complete the work by
+- Created and wrote up 6 potential risks to the projects success(not including time management)
 
 ### Bridget:
 - Created one detailed user profile
