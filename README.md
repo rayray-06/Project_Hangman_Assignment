@@ -48,9 +48,11 @@ The project aims to serve young adults together with teenagers who fall within t
 
 
 ## Potential risks to the project’s success: (not including time management)
-1) Technical skill gaps: some users may not be familiar or have much experience with the software being used in this project which could lead to challenges while implementing certain features e.g multiplayer
-2) 
-
+1) Technical skill gaps: some users may not be familiar or have much experience with the software being used in this project which could lead to challenges while implementing certain features e.g multiplayer.
+2) Multi player synchronisation issues: As the game is going to be running on different devices at the same time, there is a risk that the game states may become out of sync if the database doesn’t update correctly or quickly enough. 
+3) Internet connection issues: Multiplayer mode relies on stable internet connection. if internet connection is slow or unstable for one user that could cause delays or incorrect game updates.
+4) User interface challenges: If the ui is not designed clearly it users may be hard for users to navigate the game smoothly. Since the target audience is 13–20 clarity and simplicity are important.
+5) 
 ## Software development strategy
 ...
 
