@@ -77,7 +77,8 @@ The multiplayer match in our game is managed via a straightforward state system.
 - created a test plan that we can add to throughout the project
 - delegating tasks to other team members and giving them deadlines to complete the work by
 - Created and wrote up 6 potential risks to the projects success(not including time management)
-- created and wrote up the software development strategy 
+- created and wrote up the software development strategy
+- completing game state management 
 
 ### Bridget:
 - Created one detailed user profile
