@@ -41,7 +41,8 @@ The project aims to serve young adults together with teenagers who fall within t
 - connection to the internet to play multiplayer 
 
 ## Mock-ups (B)
-...
+<img width="622" height="537" alt="image" src="https://github.com/user-attachments/assets/c1912273-a284-4b3d-8fd2-06b54e31bccd" />
+
 
 ## Basic storyboard 
 <img width="1156" height="1521" alt="image" src="https://github.com/user-attachments/assets/7698678a-f3da-4896-8b82-6d41c943051d" />
