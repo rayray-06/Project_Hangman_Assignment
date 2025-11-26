@@ -61,7 +61,7 @@ The project aims to serve young adults together with teenagers who fall within t
 ...
 
 ## Game State Management(Will complete later)
-...
+The multiplayer match in our game is managed via a straightforward state system. When two players enter the same room, they both attempt to guess the same word. The game begins in a waiting state until both players are connected, at which time it enters a playing state where each right guess earns the player one point. To keep both devices in sync, Firebase is used to update the shared game state, which includes disclosed letters, remaining attempts, and each player's score. The game is over and the scores are compared after the word is fully disclosed or all efforts are exhausted. If both scores are equal, the game is a draw; otherwise, the person with the greater score wins. The final state only displays the outcome to both players
 
 ## Contribution to Project
 ### Rayyan:
