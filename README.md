@@ -42,6 +42,7 @@ The project aims to serve young adults together with teenagers who fall within t
 
 ## Mock-ups (B)
 <img width="622" height="537" alt="image" src="https://github.com/user-attachments/assets/c1912273-a284-4b3d-8fd2-06b54e31bccd" />
+<img width="611" height="530" alt="image" src="https://github.com/user-attachments/assets/de999896-7cf4-4f4c-b356-ed88ca97e0eb" />
 
 
 ## Basic storyboard 
