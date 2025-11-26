@@ -55,7 +55,7 @@ The project aims to serve young adults together with teenagers who fall within t
 5) Handling player disconnection: if one player leaves the game mid match the system might not be able to handle or recognize the disconnection which could distrupt the current game session.
 6) Duplicate room codes: If the room code generator creates the same code twice by accident, two different games could end up sharing the same room and cause issues.
 ## Software development strategy
-...
+ For this project we wll be using an agile approach, this means that will be breaking down the woerkload into small steps rather than trying to finish everything at once. As a group. we will focus one part at time making sure its correct before moving onto the next part and we aim to do this throughout the project. This approach works well for our group because the project has different sections, like the UI, the game logic, and the multiplayer system. By working in short cycles, everyone can contribute to their part without waiting for someone else to finish first. It also makes it easier for us to fix problems early instead of discovering them at the end. Overall, using agile will help us stay flexible and improve the game as we develop.
 
 ## Flowchart(will complete later)
 ...
