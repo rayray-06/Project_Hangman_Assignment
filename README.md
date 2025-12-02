@@ -40,7 +40,7 @@ The project aims to serve young adults together with teenagers who fall within t
 - A mobile friendly framework to run the game on
 - connection to the internet to play multiplayer 
 
-## Mock-ups (B)
+## Mock-ups 
 <img width="622" height="537" alt="image" src="https://github.com/user-attachments/assets/c1912273-a284-4b3d-8fd2-06b54e31bccd" />
 <img width="611" height="530" alt="image" src="https://github.com/user-attachments/assets/de999896-7cf4-4f4c-b356-ed88ca97e0eb" />
 
@@ -59,12 +59,12 @@ The project aims to serve young adults together with teenagers who fall within t
 ## Software development strategy
  For this project we wll be using an agile approach, this means that will be breaking down the woerkload into small steps rather than trying to finish everything at once. As a group. we will focus one part at time making sure its correct before moving onto the next part and we aim to do this throughout the project. This approach works well for our group because the project has different sections, like the UI, the game logic, and the multiplayer system. By working in short cycles, everyone can contribute to their part without waiting for someone else to finish first. It also makes it easier for us to fix problems early instead of discovering them at the end. Overall, using agile will help us stay flexible and improve the game as we develop.
 
-## Flowchart(will complete later) (M)
+## Flowchart(will complete later) 
 <img width="752" height="982" alt="image" src="https://github.com/user-attachments/assets/eac9f480-88ff-434f-9603-660342df4e73" />
 <img width="743" height="614" alt="image" src="https://github.com/user-attachments/assets/de9600b3-9614-4ae0-b688-699c91d9d3c8" />
 
 
-## Game State Management(Will complete later) (R)
+## Game State Management(Will complete later) 
 The multiplayer match in our game is managed via a straightforward state system. When two players enter the same room, they both attempt to guess the same word. The game begins in a waiting state until both players are connected, at which time it enters a playing state where each right guess earns the player one point. To keep both devices in sync, Firebase is used to update the shared game state, which includes disclosed letters, remaining attempts, and each player's score. The game is over and the scores are compared after the word is fully disclosed or all efforts are exhausted. If both scores are equal, the game is a draw; otherwise, the person with the greater score wins. The final state only displays the outcome to both players
 
 ## Contribution to Project
@@ -82,15 +82,18 @@ The multiplayer match in our game is managed via a straightforward state system.
 - delegating tasks to other team members and giving them deadlines to complete the work by
 - Created and wrote up 6 potential risks to the projects success(not including time management)
 - created and wrote up the software development strategy
-- completing game state management 
+- completing game state management
+- started writing up the general structure of the HTML code 
 
 ### Bridget:
 - Created one detailed user profile
--  Created the mockups
+-  Created 4 detailed mockups of how the game should look and aim to be 
 -  Created the basic storyboard of the game 
 
 ### maleeha:
-- created one detailed  user profile 
+- created one detailed  user profile
+- designed two informative flowcharts that describe how the game should flow
+  
 
 
 
