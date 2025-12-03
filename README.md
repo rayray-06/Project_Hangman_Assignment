@@ -23,7 +23,7 @@ The project aims to serve young adults together with teenagers who fall within t
 - The system should detect when all attempts have been used ad should display a you lose screen
 - The system will allow one player to create an online room and another player to join using a code.
 - Both players’ devices will share the same game state through an online database.
-### nonfunctional requirements 
+### non-functional requirements 
 - The game should have a clear and visually apealling interface
 -  All buttons and text should be formatted properly for mobile screen size
 -  The system should be able to handle errors efficiently
@@ -48,7 +48,8 @@ The project aims to serve young adults together with teenagers who fall within t
 
 
 ## Basic storyboard 
-<img width="1156" height="1521" alt="image" src="https://github.com/user-attachments/assets/7698678a-f3da-4896-8b82-6d41c943051d" />
+<img width="401" height="827" alt="image" src="https://github.com/user-attachments/assets/e3a3e54a-2382-438d-b7f3-cd31bbdb865a" />
+
 
 
 ## Potential risks to the project’s success: (not including time management)
@@ -89,7 +90,7 @@ The multiplayer match in our game is managed via a straightforward state system.
 
 ### Bridget:
 - Created one detailed user profile
--  Created 4 detailed mockups of how the game should look and aim to be 
+-  Created 5 detailed mockups of how the game should look and aim to be 
 -  Created the basic storyboard of the game 
 
 ### maleeha:
