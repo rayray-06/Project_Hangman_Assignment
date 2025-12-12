@@ -16,4 +16,7 @@
 ## Appendix for photos
 * Figure 1 * : <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/76c22f4b-4487-4f7e-91d5-4e4164150d5e" />
 the homepage loads successfully without any erros and the blue background is displayed correctly with the Hangman online title displyed in the middle of the screen. Both play online and play with freinds buttons are visible, aligned correctly and the layout does not crash.
+<img width="294" height="59" alt="image" src="https://github.com/user-attachments/assets/75d9c435-4815-48f5-9568-ace9087cd5e0" />
+this part in the pyhton code is what validates the correct rendering of the applications entry point 
+
 
