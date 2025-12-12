@@ -1,56 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
     <title>Select Category</title>
-
-    <!-- 
-        This page allows players to choose a word category before the game starts keeping the game logic flexible and easy to extend.
-    -->
     <style>
         body {
-            margin: 0;
-            height: 100vh;
             background: #9FE0E8;
+            height: 100vh;
+            margin: 0;
             font-family: Arial, sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
         }
-
-        /* 
-            Fixed-width container ensures consistent spacing
-            and readability on mobile-sized screens.
-        */
         .container {
             width: 320px;
         }
-
         h2 {
             text-align: center;
             margin-bottom: 25px;
-            font-size: 26px;
         }
-
-        /* 
-            Each category is presented as a selectable card
-            to make touch input clearer than standard radio buttons.
-        */
         .option {
             background: #BEEFF4;
-            border-radius: 12px;
             padding: 15px;
+            border-radius: 12px;
             margin-bottom: 12px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            cursor: pointer;
         }
-
-        /* 
-            Play button is separated visually to signal
-            the transition from setup to gameplay.
-        */
         .play {
             width: 100%;
             padding: 14px;
@@ -58,28 +32,24 @@
             background: #5ED6E3;
             border: none;
             border-radius: 10px;
-            font-size: 18px;
-            font-weight: bold;
             color: white;
-            cursor: pointer;
+            font-weight: bold;
         }
     </style>
 </head>
 
 <body>
+<div class="container">
+    <h2>SELECT<br>CATEGORY</h2>
 
-    <!-- 
-        Category options are kept on a single screen
-        to avoid unnecessary navigation steps.
-    -->
-    <div class="container">
-        <h2>SELECT<br>CATEGORY</h2>
+    <form method="POST">
+        <div class="option"><input type="radio" name="category" value="shapes" required> SHAPES</div>
+        <div class="option"><input type="radio" name="category" value="food"> FOOD</div>
+        <div class="option"><input type="radio" name="category" value="colours"> COLOURS</div>
+        <div class="option"><input type="radio" name="category" value="sports"> SPORTS</div>
 
-        <!-- 
-            Radio inputs allow a single category choice.
-            the selected value is passed to the backend
-            when the game is initialised.
-        -->
-        <div class="option">
-            <input type="radio" name="category">
-
+        <button class="play" type="submit">PLAY</button>
+    </form>
+</div>
+</body>
+</html>
