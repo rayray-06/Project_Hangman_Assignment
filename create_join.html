@@ -1,1 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Create or Join Game</title>
 
+    <!-- 
+        Create / join screen.
+        This page allows players to either start a new game
+        or join an existing one using a room code.
+        layout is kept simple for mobile use .
+    -->
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background: #9FE0E8;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* 
+            Central container keeps all actions grouped
+            and prevents elements stretching on larger screens.
+        */
+        .container {
+            width: 320px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 30px;
+            font-size: 24px;
+        }
+
+        /* 
+            Card-style buttons are used instead of standard buttons
+            to match the wireframe and improve touch accuracy.
+        */
+        .card {
+            background: #BEEFF4;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        /* 
+            Separate join-by-code section avoids cluttering
+            the main actions and reduces accidental input.
+        */
+        .join-box {
+            background: #D7F6FA;
+            padding: 15px;
+            border-radius: 12px;
+            margin-top: 20px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 8px;
+            border: none;
+            margin-bottom: 10px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #5ED6E3;
+            border: none;
+            border-radius: 8px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
