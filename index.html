@@ -2,157 +2,195 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Hangman Game</title>
+    <title>Multiplayer Hangman</title>
 
-    <!-- 
-        Main game screen.
-        This page displays the active Hangman round,including the word state player turn information and on an on screen keyboard.
-    -->
     <style>
+        :root {
+            --bg: #0b3c8a;
+            --card: #ffffff;
+            --muted: #6b7280;
+        }
+
         body {
             margin: 0;
-            height: 100vh;
-            background: #0A3D91;
+            min-height: 100vh;
+            background: var(--bg);
             font-family: Arial, sans-serif;
             display: flex;
-            justify-content: center;
             align-items: center;
-            color: white;
+            justify-content: center;
         }
 
-        /* 
-            Central game container limits width so the interface
-            remains readable on both mobile and desktop screens.
-        */
-        .container {
-            width: 340px;
-            text-align: center;
-        }
-
-        /* 
-            Category label gives context to the word being guessed
-            without distracting from gameplay.
-        */
-        .category {
-            font-size: 22px;
-            font-weight: bold;
-            margin-bottom: 15px;
-        }
-
-        /* 
-            White game card separates gameplay elements
-            from the darker background to improve contrast.
-        */
-        .game-box {
-            background: white;
-            color: black;
-            border-radius: 18px;
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-
-        /* 
-            Placeholder area for the Hangman drawing.
-            This is updated dynamically as wrong guesses increase.
-        */
-        .hangman {
-            height: 140px;
-            background: #f1f1f1;
-            border-radius: 12px;
-            margin-bottom: 15px;
+        .card {
+            width: 760px;
+            background: var(--card);
+            border-radius: 16px;
+            padding: 24px;
             display: flex;
-            justify-content: center;
+            gap: 24px;
+        }
+
+        .left {
+            width: 320px;
+            display: flex;
+            flex-direction: column;
             align-items: center;
         }
 
-        /* 
-            Word display uses increased letter spacing
-            to clearly distinguish unrevealed characters.
-        */
+        .right {
+            flex: 1;
+        }
+
+        h2 {
+            margin: 0 0 10px 0;
+        }
+
+        .svg-wrap {
+            background: #eef2ff;
+            padding: 16px;
+            border-radius: 10px;
+        }
+
+        svg {
+            width: 220px;
+            height: 300px;
+        }
+
         .word {
-            font-size: 30px;
+            font-size: 32px;
             letter-spacing: 10px;
-            margin-bottom: 10px;
-            font-weight: bold;
+            margin-top: 18px;
         }
 
-        /* 
-            Turn indicator provides simple feedback
-            without interrupting gameplay.
-        */
         .turn {
-            font-size: 14px;
-        }
-
-        /* 
-            On-screen keyboard avoids reliance on physical keyboards,
-            improving usability on touch devices.
-        */
-        .keyboard {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 6px;
-            justify-content: center;
-        }
-
-        .key {
-            width: 32px;
-            height: 32px;
-            background: #ffffff33;
-            border: none;
-            border-radius: 6px;
-            color: white;
+            margin-top: 10px;
             font-weight: bold;
+        }
+
+        .info {
+            color: var(--muted);
+            margin-top: 6px;
+        }
+
+        .message {
+            margin-top: 14px;
+            font-weight: bold;
+        }
+
+        .guessed {
+            margin-top: 10px;
+            color: var(--muted);
+        }
+
+        .letters {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+            margin-top: 6px;
+        }
+
+        .letter-pill {
+            padding: 6px 10px;
+            border-radius: 999px;
+            border: 1px solid #e5e7eb;
+            background: #f9fafb;
+        }
+
+        .part {
+            opacity: 0;
+            transition: opacity 300ms ease;
+        }
+
+        .part.show {
+            opacity: 1;
+        }
+
+        form {
+            margin-top: 14px;
+        }
+
+        input[type=text] {
+            font-size: 18px;
+            padding: 8px;
+            width: 80px;
+            text-align: center;
+            border-radius: 8px;
+            border: 1px solid #d1d5db;
+        }
+
+        button {
+            padding: 8px 14px;
+            border-radius: 8px;
+            border: none;
             cursor: pointer;
+            font-weight: bold;
         }
     </style>
 </head>
 
-<body>
+<!-- room is required for JS polling -->
+<body data-room="{{ room }}">
 
-    <!-- 
-        Game interface container. All gameplay related elements are kept on a single screen to avoid breaking player focus during a round.
-    -->
-    <div class="container">
+<div class="card">
 
-        <!-- Displays the selected category for the current round -->
-        <div class="category">CATEGORY</div>
+    <!-- LEFT: HANGMAN -->
+    <div class="left">
+        <h2>Hangman</h2>
 
-        <div class="game-box">
+        <div class="svg-wrap">
+            <svg viewBox="0 0 120 160">
+                <!-- gallows -->
+                <line x1="10" y1="150" x2="110" y2="150" stroke="#333" stroke-width="2"/>
+                <line x1="30" y1="150" x2="30" y2="20" stroke="#333" stroke-width="2"/>
+                <line x1="30" y1="20" x2="80" y2="20" stroke="#333" stroke-width="2"/>
+                <line x1="80" y1="20" x2="80" y2="36" stroke="#333" stroke-width="2"/>
 
-            <!-- 
-                Visual hangman representation. The drawing is updated as incorrect guesses are made.
-            -->
-            <div class="hangman">
-                HANGMAN
+                <!-- parts -->
+                <circle cx="80" cy="46" r="10" class="part"/>
+                <line x1="80" y1="56" x2="80" y2="92" class="part"/>
+                <line x1="80" y1="66" x2="64" y2="80" class="part"/>
+                <line x1="80" y1="66" x2="96" y2="80" class="part"/>
+                <line x1="80" y1="92" x2="66" y2="118" class="part"/>
+                <line x1="80" y1="92" x2="94" y2="118" class="part"/>
+            </svg>
+        </div>
+
+        <div class="info">Wrong guesses: {{ wrong_guesses }} / {{ max_wrong }}</div>
+
+        <div class="guessed">
+            Guessed letters:
+            <div class="letters">
+                {% for g in guessed %}
+                    <div class="letter-pill">{{ g }}</div>
+                {% endfor %}
             </div>
-
-            <!-- 
-                Current state of the word.
-                Letters are revealed progressively as correct guesses occur.
-            -->
-            <div class="word">_ _ _ _ _</div>
-
-            <!-- Indicates whose turn it is during multiplayer rounds -->
-            <div class="turn">Player 1’s turn</div>
         </div>
-
-        <!-- 
-             keyboard for letter input.Keys are disabled after use to prevent duplicate guesses.
-        -->
-        <div class="keyboard">
-            <button class="key">A</button><button class="key">B</button><button class="key">C</button>
-            <button class="key">D</button><button class="key">E</button><button class="key">F</button>
-            <button class="key">G</button><button class="key">H</button><button class="key">I</button>
-            <button class="key">J</button><button class="key">K</button><button class="key">L</button>
-            <button class="key">M</button><button class="key">N</button><button class="key">O</button>
-            <button class="key">P</button><button class="key">Q</button><button class="key">R</button>
-            <button class="key">S</button><button class="key">T</button><button class="key">U</button>
-            <button class="key">V</button><button class="key">W</button><button class="key">X</button>
-            <button class="key">Y</button><button class="key">Z</button>
-        </div>
-
     </div>
 
+    <!-- RIGHT: GAME INFO -->
+    <div class="right">
+        <div class="turn">Player <strong>{{ current_player }}</strong>'s turn</div>
+
+        <div class="word">{{ display_word }}</div>
+
+        <div class="message">{{ message }}</div>
+
+        <form method="POST" action="/guess">
+            <input type="hidden" name="room" value="{{ room }}">
+            <input name="letter" maxlength="1" pattern="[A-Za-z]" autocomplete="off"
+                   {% if game_over %}disabled{% endif %}>
+            <button type="submit" {% if game_over %}disabled{% endif %}>Guess</button>
+        </form>
+
+        {% if game_over %}
+        <form method="POST" action="/reset/{{ room }}">
+            <button type="submit">New Game</button>
+        </form>
+        {% endif %}
+    </div>
+
+</div>
+
+<script src="{{ url_for('static', filename='game.js') }}"></script>
 </body>
 </html>
