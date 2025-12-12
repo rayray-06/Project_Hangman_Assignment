@@ -83,3 +83,48 @@
 </head>
 
 <body>
+ <!-- 
+        Main interaction area.
+        Both create and join options are visible immediately
+        to reduce navigation steps making it more accessible .
+    -->
+    <div class="container">
+        <h2>CREATE OR<br>JOIN GAME</h2>
+
+        <!-- 
+            Create room option.
+            Routing logic is handled by flask, this page only
+            provides the ui trigger.
+        -->
+        <a href="/category" style="text-decoration:none; color:inherit;">
+            <div class="card">
+                <span> CREATE ROOM</span>
+                <span>→</span>
+            </div>
+        </a>
+
+        <!-- 
+            Join room option.
+            currently routes forward for UI testing;
+            room validation is added later in development.
+        -->
+        <a href="/category" style="text-decoration:none; color:inherit;">
+            <div class="card">
+                <span> JOIN ROOM</span>
+                <span>→</span>
+            </div>
+        </a>
+
+        <!-- 
+            Manual room code entry.
+            kept optional to support direct joining
+            without forcing account creation.
+        -->
+        <div class="join-box">
+            <input type="text" placeholder="Enter Room Code">
+            <button>JOIN</button>
+        </div>
+    </div>
+
+</body>
+</html>
