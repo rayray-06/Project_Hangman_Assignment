@@ -2,7 +2,7 @@
 |--------------|--------------------|-------------------|---------------|
 | **Homepage loads** | the homepage should load up with 2 buttons and match the colour scheme of the mockups | see figure 1 | ✅ Pass |
 | **Navigate to play with freinds** |the page should load from the homepage to the play wiht freinds page and not break|see figure 2 | ✅ Pass |
-| **Category page loads** | the category page should load up with no errors | .see figure 3| ❌fail |
+| **Category page loads** | the category page should load up with no errors | see figure 3| ❌fail |
 | **4**| . |.| ✅ Pass/❌fail |
 | **5** | . |.| ✅ Pass/❌fail|
 | **6** |.| .| ✅ Pass/❌fail|
