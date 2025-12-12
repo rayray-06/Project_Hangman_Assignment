@@ -24,7 +24,6 @@ The Create or Join Game screen loaded successfully after navigation from the hom
 
 *Figure 3* <img width="959" height="538" alt="image" src="https://github.com/user-attachments/assets/0d1f014f-2346-4cb4-ac20-ecac2bc1f3f2" />
 After the user creates the room their is a select category title however no options to chose from although the category file  is linked in the pyhton file. Howeber this is expected as category selection is handled on a seperate screen that will be created later. the game is being developed part by part so we are developing and testing as we go along.
-<img width="320" height="54" alt="image" src="https://github.com/user-attachments/assets/7cd84ff8-c050-4dc5-b600-13d22533b571" />
 
 
 
