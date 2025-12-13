@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -98,6 +99,9 @@
 
         .part {
             opacity: 0;
+            stroke: #333;
+            stroke-width: 2;
+            fill: none;
             transition: opacity 300ms ease;
         }
 
@@ -125,11 +129,32 @@
             cursor: pointer;
             font-weight: bold;
         }
+
+        .players {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .player {
+            padding: 6px 12px;
+            border-radius: 8px;
+            background: #f3f4f6;
+            font-weight: bold;
+        }
+
+        .player.you {
+            background: #dbeafe;
+        }
+
+        .player.active {
+            border: 2px solid #2563eb;
+        }
     </style>
 </head>
 
-<!-- room is required for JS polling -->
-<body data-room="{{ room }}">
+<body data-room="{{ room }}" data-player="{{ player }}">
+
 
 <div class="card">
 
@@ -171,9 +196,21 @@
     <div class="right">
         <div class="turn">Player <strong>{{ current_player }}</strong>'s turn</div>
 
+        <div class="players">
+            <div id="p1" class="player">Player 1</div>
+            <div id="p2" class="player">Player 2</div>
+        </div>
+
+        <div class="room-code">
+            <strong>Room Code:</strong> {{ room }}
+        </div>
+
+        <div class="message"></div>
+        <div class="waiting" style="color:red;font-weight:bold;"></div>
+
         <div class="word">{{ display_word }}</div>
 
-        <div class="message">{{ message }}</div>
+        
 
         <form method="POST" action="/guess">
             <input type="hidden" name="room" value="{{ room }}">
@@ -188,6 +225,13 @@
         </form>
         {% endif %}
     </div>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+
 
 </div>
 
