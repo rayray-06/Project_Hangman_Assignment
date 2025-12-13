@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>Create or Join Game</title>
+    <title>Create or Join</title>
 </head>
-
 <body>
-<h2>CREATE OR JOIN GAME</h2>
+    <h1>Create or Join Room</h1>
 
-<form action="/create_room" method="POST">
-    <button type="submit">CREATE ROOM</button>
-</form>
+    <form action="/create_room" method="POST">
+        <button type="submit">Create Room</button>
+    </form>
 
-<form action="/game" method="GET">
-    <input name="room" placeholder="Room Code" required>
-    <button type="submit">JOIN ROOM</button>
-</form>
+    <br><br>
 
+    <form action="/join_room" method="POST">
+        <input name="room" placeholder="ROOM CODE" maxlength="5" required>
+        <button type="submit">Join Room</button>
+    </form>
 </body>
+
 </html>
+
