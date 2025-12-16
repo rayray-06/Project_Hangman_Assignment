@@ -4,8 +4,8 @@
 | **Navigate to play with freinds** |the page should load from the homepage to the play wiht freinds page and not break|see figure 2 | ✅ Pass |
 | **Category page loads** | the category page should load up with no errors | see figure 3| ❌fail |
 | **check if the game is compatible on phone**| the homepage should load fine in its correct dimensions on mobile layout |see figure 4| ✅ Pass|
-| **5** | . |.| ✅ Pass/❌fail|
-| **6** |.| .| ✅ Pass/❌fail|
+| **check if the game is compatible on phone** | the create room/join room should be displayed correctly on phone layout|see figure 5| ❌fail|
+| **check if the game is compatible on phone** |check to see if the actual hangman game loads up | see figure 6| ✅ Pass|
 | **7** |. |. | ✅ Pass/❌fail|
 | **8** | .| .| ✅ Pass/❌fail|
 | **9** |. |.| ✅ Pass/❌fail|
@@ -27,6 +27,13 @@ After the user creates the room their is a select category title however no opti
 
 *figure 4* <img width="959" height="478" alt="image" src="https://github.com/user-attachments/assets/661a859c-fab2-4a01-b59f-4b8427b3d9de" />
 the hompeage sits perfectly o nthe iphone 14 pro max display with nothing moved around therefore this test result is successful 
+
+*figure 5* <img width="958" height="479" alt="image" src="https://github.com/user-attachments/assets/f360ab62-5620-443d-a6c7-808ad0aa7d89" />
+webpage loads however the create and join room part should not be in the corner, furthermore some styling needs to be done with the page to match the theme of the game 
+
+*figure 6* <img width="959" height="480" alt="image" src="https://github.com/user-attachments/assets/640087ed-5e93-4511-9da1-6d2018cd8693" />
+ the actual hangman game loads up onto the phone ui and the format is still the same although the size looks smaller however that may be because it is being tested on phone view on chrome on a laptop
+
 
 
 
