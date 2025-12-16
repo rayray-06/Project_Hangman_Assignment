@@ -52,6 +52,14 @@ The primary target users for this project are people aged between 13 and 20 year
 
 ## Overall_specification 
 ### user requirements
+- Users should be able to play the game easily on a mobile phone without needing extra setup.
+- Users should be able to create a game and invite another player using a room code.
+- Users should be able to join a game from a different device using the provided code.
+- Users should be able to guess letters through an on screen input.
+- Users should be able to clearly see which letters have already been guessed.
+- Users should be able to see how many attempts they have remaining during the game.
+- Users should receive clear feedback when a guess is correct or incorrect.
+- Users should be informed when the game has ended and whether they have won or lost.
 ### Functional requirments 
 ### Non functional requirements 
 ### Human computer interaction
