@@ -15,7 +15,7 @@ This project is a mobile-compatible, multiplayer version of the classic Hangman 
 
 [System requiremnets](#System_requiremnets) 
 
-[Mock ups and storyboard](#Mock_ups) 
+[Mock ups and storyboard](#Mock_ups_and_Storyboard) 
 
 [Potential risks to the project success](#Potential_risks_to_the_project_success)  
 
