@@ -1,0 +1,240 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Multiplayer Hangman</title>
+
+    <style>
+        :root {
+            --bg: #0b3c8a;
+            --card: #ffffff;
+            --muted: #6b7280;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            background: var(--bg);
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card {
+            width: 760px;
+            background: var(--card);
+            border-radius: 16px;
+            padding: 24px;
+            display: flex;
+            gap: 24px;
+        }
+
+        .left {
+            width: 320px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .right {
+            flex: 1;
+        }
+
+        h2 {
+            margin: 0 0 10px 0;
+        }
+
+        .svg-wrap {
+            background: #eef2ff;
+            padding: 16px;
+            border-radius: 10px;
+        }
+
+        svg {
+            width: 220px;
+            height: 300px;
+        }
+
+        .word {
+            font-size: 32px;
+            letter-spacing: 10px;
+            margin-top: 18px;
+        }
+
+        .turn {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .info {
+            color: var(--muted);
+            margin-top: 6px;
+        }
+
+        .message {
+            margin-top: 14px;
+            font-weight: bold;
+        }
+
+        .guessed {
+            margin-top: 10px;
+            color: var(--muted);
+        }
+
+        .letters {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+            margin-top: 6px;
+        }
+
+        .letter-pill {
+            padding: 6px 10px;
+            border-radius: 999px;
+            border: 1px solid #e5e7eb;
+            background: #f9fafb;
+        }
+
+        .part {
+            opacity: 0;
+            stroke: #333;
+            stroke-width: 2;
+            fill: none;
+            transition: opacity 300ms ease;
+        }
+
+        .part.show {
+            opacity: 1;
+        }
+
+        form {
+            margin-top: 14px;
+        }
+
+        input[type=text] {
+            font-size: 18px;
+            padding: 8px;
+            width: 80px;
+            text-align: center;
+            border-radius: 8px;
+            border: 1px solid #d1d5db;
+        }
+
+        button {
+            padding: 8px 14px;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .players {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .player {
+            padding: 6px 12px;
+            border-radius: 8px;
+            background: #f3f4f6;
+            font-weight: bold;
+        }
+
+        .player.you {
+            background: #dbeafe;
+        }
+
+        .player.active {
+            border: 2px solid #2563eb;
+        }
+    </style>
+</head>
+
+<body data-room="{{ room }}" data-player="{{ player }}">
+
+
+<div class="card">
+
+    <!-- LEFT: HANGMAN -->
+    <div class="left">
+        <h2>Hangman</h2>
+
+        <div class="svg-wrap">
+            <svg viewBox="0 0 120 160">
+                <!-- gallows -->
+                <line x1="10" y1="150" x2="110" y2="150" stroke="#333" stroke-width="2"/>
+                <line x1="30" y1="150" x2="30" y2="20" stroke="#333" stroke-width="2"/>
+                <line x1="30" y1="20" x2="80" y2="20" stroke="#333" stroke-width="2"/>
+                <line x1="80" y1="20" x2="80" y2="36" stroke="#333" stroke-width="2"/>
+
+                <!-- parts -->
+                <circle cx="80" cy="46" r="10" class="part"/>
+                <line x1="80" y1="56" x2="80" y2="92" class="part"/>
+                <line x1="80" y1="66" x2="64" y2="80" class="part"/>
+                <line x1="80" y1="66" x2="96" y2="80" class="part"/>
+                <line x1="80" y1="92" x2="66" y2="118" class="part"/>
+                <line x1="80" y1="92" x2="94" y2="118" class="part"/>
+            </svg>
+        </div>
+
+        <div class="info">Wrong guesses: {{ wrong_guesses }} / {{ max_wrong }}</div>
+
+        <div class="guessed">
+            Guessed letters:
+            <div class="letters">
+                {% for g in guessed %}
+                    <div class="letter-pill">{{ g }}</div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT: GAME INFO -->
+    <div class="right">
+        <div class="turn">Player <strong>{{ current_player }}</strong>'s turn</div>
+
+        <div class="players">
+            <div id="p1" class="player">Player 1</div>
+            <div id="p2" class="player">Player 2</div>
+        </div>
+
+        <div class="room-code">
+            <strong>Room Code:</strong> {{ room }}
+        </div>
+
+        <div class="message"></div>
+        <div class="waiting" style="color:red;font-weight:bold;"></div>
+
+        <div class="word">{{ display_word }}</div>
+
+        
+
+        <form method="POST" action="/guess">
+            <input type="hidden" name="room" value="{{ room }}">
+            <input name="letter" maxlength="1" pattern="[A-Za-z]" autocomplete="off"
+                   {% if game_over %}disabled{% endif %}>
+            <button type="submit" {% if game_over %}disabled{% endif %}>Guess</button>
+        </form>
+
+        {% if game_over %}
+        <form method="POST" action="/reset/{{ room }}">
+            <button type="submit">New Game</button>
+        </form>
+        {% endif %}
+    </div>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+
+
+</div>
+
+<script src="{{ url_for('static', filename='game.js') }}"></script>
+</body>
+</html>
