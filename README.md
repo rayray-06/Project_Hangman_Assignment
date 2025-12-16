@@ -6,6 +6,8 @@ This project is a mobile-compatible, multiplayer version of the classic Hangman 
 ## Table of contents  
 [Project description ](#Project_description)  
 
+[Technologies used ](#Technologies_used) 
+
 [Userprofiles](#User_profiles)  
 
 [Functionaland non functional requirements](#Functional_and_nonfunctional_requirements)  
@@ -24,8 +26,9 @@ This project is a mobile-compatible, multiplayer version of the classic Hangman 
 
 [Contribution to Project](#Contribution_to_Project)
 
-<a name="Project description"/>
-<a name="User Profiles"/>
+<a name="Project_description"/>
+<a name="Technologies_used"/>
+<a name="User_Profiles"/>
 <a name="Functional_and_nonfunctional_requirements"/>
 <a name="System_requiremnets"/>
 <a name="Mock_ups"/>
@@ -36,6 +39,14 @@ This project is a mobile-compatible, multiplayer version of the classic Hangman 
 <a name="Contribution_to_Project"/>
 
 
+## Technologies_used 
+Python (Flask) – Used as the backend framework to manage game logic, multiplayer room handling, and server side state management.
+
+HTML – Provides the structure and layout of the user interface for the game.
+
+CSS – Used to style the application and ensure a clean, mobile compatible and responsive user interface.
+
+JavaScript – Handles client side logic, including user interaction and real time game state updates through polling.
 
 ## User_profiles
 <img width="567" height="362" alt="image" src="https://github.com/user-attachments/assets/d72b5e51-d698-4501-9d20-0f297d0b4d60" />
