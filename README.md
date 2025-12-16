@@ -29,6 +29,10 @@ This project is a mobile-compatible, multiplayer version of the classic Hangman 
 
 [Contribution to Project](#Contribution_to_Project)
 
+[Refrences](#Refrences)
+
+[Group evaluation](#Group_evaluation)
+
 <a name="Project_description"/>
 <a name="Target_users"/>
 <a name="User_Profiles"/>
@@ -41,6 +45,8 @@ This project is a mobile-compatible, multiplayer version of the classic Hangman 
 <a name="Game_State_Management"/>
 <a name="Future_improvements"/>
 <a name="Contribution_to_Project"/>
+<a name="Refrences"/>
+<a name="Group_evaluation"/>
 
 
 ## Target_users 
@@ -169,3 +175,13 @@ The multiplayer match in the game is managed using a server-side game state hand
 - made the first draft of the python code from which rayyan developed
 - revamped rayyans version of the code to make a final working game in line with the mockups
 - redone the html files, javascript file and the python file 
+
+## References 
+we used some websites and watched videos to gain knowledge on how to start creating the game and using javascript. they will be linked below 
+Monetate.com. (2025). JavaScript Polling | Monetate KB. [online] Available at: https://docs.monetate.com/docs/use-javascript-to-poll-for-necessary-resources [Accessed 16 Dec. 2025].
+Versa Sync (2024). Hangman #multiplayer game using #python. [online] YouTube. Available at: https://www.youtube.com/watch?v=iltbnphQVro [Accessed 16 Dec. 2025].
+
+## Group_evaluation 
+‌
+
+‌
