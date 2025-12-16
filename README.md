@@ -21,7 +21,7 @@ This project is a mobile-compatible, multiplayer version of the classic Hangman 
 
 [Software development strategy](#Software_development_strategy)
 
-[Flowcharts](#Flowchart) 
+[Flowcharts](#Flowcharts) 
 
 [Game State Management](#Game_State_Management)
 
@@ -37,7 +37,7 @@ This project is a mobile-compatible, multiplayer version of the classic Hangman 
 <a name="Mock_ups_and_Storyboard"/>
 <a name="Potential_risks_to_the_project_success"/>
 <a name="Software_development_strategy"/>
-<a name="Flowchart"/>
+<a name="Flowcharts"/>
 <a name="Game_State_Management"/>
 <a name="Future_improvements"/>
 <a name="Contribution_to_Project"/>
