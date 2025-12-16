@@ -9,11 +9,8 @@ This project is a mobile-compatible, multiplayer version of the classic Hangman 
     
 <a name="Project description"/>
 <a name="Functional_and_non_functional_requirements"/>
-<a name="headers"/>
-<a name="headers"/>
-## Headers
-## Target audience 
-The project aims to serve young adults together with teenagers who fall within the age range of 13 to 20 years. A mobile Hangman game would suit this age group perfectly because they tend to enjoy quick and simple games that need no complex controls or extended instructions. Most people in this range already know how Hangman works, so the rules are very quick to understand.
+
+
 ## User profiles
 <img width="567" height="362" alt="image" src="https://github.com/user-attachments/assets/d72b5e51-d698-4501-9d20-0f297d0b4d60" />
 <img width="686" height="564" alt="image" src="https://github.com/user-attachments/assets/a8e107db-35f4-4ecd-ab16-9053390d058e" />
