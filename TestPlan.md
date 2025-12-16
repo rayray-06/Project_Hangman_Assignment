@@ -40,7 +40,7 @@ the create/join page now matches the colour scheme of the game and has its butto
 Instead of it saying what the word was or which player won, it shows for the next player to have their turn, this is unsuccessfull as the message should be shown
 
 **figure 9** <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/05b5b00f-0d5f-4349-86ec-95b325c71ab6" />
-
+The message shows that the user has inputted an incorrect format, and advises them to match the character format of the game 
 
 
 
