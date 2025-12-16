@@ -8,7 +8,7 @@
 | **check if the game is compatible on phone** |check to see if the actual hangman game loads up | see figure 6| ✅ Pass|
 | **Create/Join Room buttons work** |The buttons should be usable and match with the layout |.see figure | ✅ Pass|
 | **Input room code into space** | The space allows for letters for be inputted| .| ✅ Pass/❌fail|
-| **9** |. |.| ✅ Pass/❌fail|
+| **create/join room matches colour schem and buttons work** the create/join page should be blue matching thecolour scheme as the rest of the game and the butons should work |see figure 7| ✅ Pass|
 | **10** | . |.| ✅ Pass/❌fail|
 |**11** | . |.| ✅ Pass/❌fail|
 | **12** | .|.| ✅ Pass/❌fail|
@@ -33,6 +33,12 @@ webpage loads however the create and join room part should not be in the corner,
 
 **figure 6** <img width="959" height="480" alt="image" src="https://github.com/user-attachments/assets/640087ed-5e93-4511-9da1-6d2018cd8693" />
  the actual hangman game loads up onto the phone ui and the format is still the same although the size looks smaller however that may be because it is being tested on phone view on chrome on a laptop
+ 
+**figure 7** <img width="919" height="479" alt="image" src="https://github.com/user-attachments/assets/da04f4da-0798-4bcc-8ad7-500681431009" />
+the create/join page now matches the colour scheme of the game and has its buttons in the middle of the page making the layout look good on both desktop and mobile 
+
+
+
 
  ## 1st draft testing 
  **problems thoughout the python, HTML and javascript**
