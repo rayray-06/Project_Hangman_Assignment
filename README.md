@@ -139,6 +139,9 @@ or this project we used an agile development approach, which involved breaking t
 The multiplayer match in the game is managed using a server-side game state handled by the Flask backend. When two players join the same room, they share a single game state stored on the server, including the current word, guessed letters, remaining attempts, and current player turn. Client devices regularly poll the server to retrieve updated game state information, ensuring that both players remain synchronised during gameplay. The game ends when the word is fully revealed or when the maximum number of incorrect attempts is reached, at which point the final result is displayed to both players.
 
 ## Future_improvements 
+- Add the category selection page that allows players to choose different word categories before starting a game.
+- Fully implement and refine the category system to ensure it integrates smoothly with the existing game logic.
+- Improve time management during development to avoid leaving tasks until late and allow more time for testing and refinement.
 
 ## Contribution_to_Project
 ### Rayyan 
@@ -184,6 +187,7 @@ Monetate.com. (2025). JavaScript Polling | Monetate KB. [online] Available at: h
 Versa Sync (2024). Hangman #multiplayer game using #python. [online] YouTube. Available at: https://www.youtube.com/watch?v=iltbnphQVro [Accessed 16 Dec. 2025].
 
 ## Group_evaluation 
+Although this was the group's first time working together, the cooperation was generally constructive and successful. Each team member contributed a variety of abilities to the project, which was beneficial because duties like design, planning, and development could be allocated according to individual strengths. Members of the group were willing to assist one another when problems arose, and there was generally good communication inside the group. The team collaborated to guarantee that nearly all necessary sections and features were finished before the deadline, even if some parts of the project were finished later than anticipated. In addition to emphasizing the value of improved time management, this event demonstrated our ability to adjust, collaborate, and provide a functional solution in spite of little obstacles.
 ‌
 
 ‌
