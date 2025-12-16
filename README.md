@@ -95,7 +95,7 @@ At the start of the game a random word is selected and displayed as blank placeh
 ### Game mechanics 
 The chosen word, guessed letters, remaining attempts, and current player turn are all stored as part of the game state, which is managed by Flask on the server. Each guess sent from a player is processed by the server, which updates the game state accordingly and determines whether the guess is correct or incorrect. In order to maintain synchronization between the two players, the client periodically asks the server for updated game state data, which enables each device's interface to reflect modifications like revealed letters, hangman updates, and game completion.
 
-## System_requirements 
+## System_requiremnets
 ### Hardware requriements 
 -  A mobile device that can run lightwieght mobile application, along with a touchscreen
 -  The device has to be able to run python
