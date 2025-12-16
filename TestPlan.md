@@ -37,7 +37,7 @@ webpage loads however the create and join room part should not be in the corner,
 the create/join page now matches the colour scheme of the game and has its buttons in the middle of the page making the layout look good on both desktop and mobile 
 
 **figure 8**  <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/3474fb70-e5e0-4377-8a80-37ac839a662e" />
-Instead of it saying what the word was or which player won, it shows fro the next player to have their turn, this is unsuccessfull as the message should be shown
+Instead of it saying what the word was or which player won, it shows for the next player to have their turn, this is unsuccessfull as the message should be shown
 
 
 
