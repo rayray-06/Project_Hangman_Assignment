@@ -9,7 +9,7 @@
 | **Create/Join Room buttons work** |The buttons should be usable and match with the layout |.see figure | ✅ Pass|
 | **Input room code into space** | The space allows for letters for be inputted| .| ✅ Pass/❌fail|
 | **create/join room matches colour scheme and buttons work** | the create/join page should be blue matching thecolour scheme as the rest of the game and the butons should work |see figure 7| ✅ Pass|
-| **Game shows message when game ends** | When the game is over it will show message| See figure 8 |❌fail|
+| **game shows message when game ends** | When the game is over it will show message| See figure 8 |❌fail|
 | **correct letter input when guessing** |Will show message telling user to put the correct format | See figure 9| ✅ Pass|
 
 ## Appendix for photos
