@@ -8,8 +8,7 @@
 | **check if the game is compatible on phone** |check to see if the actual hangman game loads up | see figure 6| ✅ Pass|
 | **Create/Join Room buttons work** |The buttons should be usable and match with the layout |.see figure | ✅ Pass|
 | **Input room code into space** | The space allows for letters for be inputted| .| ✅ Pass/❌fail|
-| **create/join room matches colour scheme and buttons work**|the create/join page should be blue matching thecolour scheme as the rest of the game and the butons should work|see figure 7 |✅ Pass|
-| **10** | . |.| ✅ Pass/❌fail|
+| **create/join room matches colour scheme and buttons work** | the create/join page should be blue matching thecolour scheme as the rest of the game and the butons should work |see figure 7| ✅ Pass|
 |**11** | . |.| ✅ Pass/❌fail|
 | **12** | .|.| ✅ Pass/❌fail|
 
