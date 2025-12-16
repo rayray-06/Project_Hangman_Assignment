@@ -27,7 +27,7 @@ This project is a mobile-compatible, multiplayer version of the classic Hangman 
 <a name="Functional_and_nonfunctional_requirements"/>
 <a name="System_requiremnets"/>
 <a name="Mock_ups"/>
-<a name="Potential_risks_to_the_project’s_success:(not_including_time_management)"/>
+<a name="Potential_risks_to_the_project’s_success"/>
 <a name="Software_development_strategy"/>
 <a name="Flowchart"/>
 <a name="Game_State_Management(Will_complete_later)"/>
