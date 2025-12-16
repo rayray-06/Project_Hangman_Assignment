@@ -34,7 +34,7 @@ This project is a mobile-compatible, multiplayer version of the classic Hangman 
 <a name="User_Profiles"/>
 <a name="Overall_specification"/>
 <a name="System_requiremnets"/>
-<a name="Mock_ups"/>
+<a name="Mock_ups_and_Storyboard"/>
 <a name="Potential_risks_to_the_project_success"/>
 <a name="Software_development_strategy"/>
 <a name="Flowchart"/>
@@ -85,14 +85,34 @@ The primary target users for this project are people aged between 13 and 20 year
 - The application should be lightweight to minimise battery and resource usage on mobile devices
 - The game should remain usable on different devices and screen resolutions
 ### Human computer interaction
+- Players interact with the game using on screen buttons and text input
+- The interface is designed to be simple and easy to use on mobile devices
+- Visual feedback is provided through the hangman drawing as incorrect guesses are made
+- The current player’s turn is clearly shown on screen
+- The layout adjusts to different screen sizes to maintain usability.
 ### Game rules 
+At the start of the game a random word is selected and displayed as blank placeholders. Two players take turns guessing one letter at a time, with correct guesses revealing the letter in the word and allowing the same player to continue, while incorrect guesses reduce the number of remaining attempts and pass the turn to the other player. The game ends when the word is fully revealed or when the maximum number of incorrect guesses has been reached.
 ### Game mechanics 
+The chosen word, guessed letters, remaining attempts, and current player turn are all stored as part of the game state, which is managed by Flask on the server. Each guess sent from a player is processed by the server, which updates the game state accordingly and determines whether the guess is correct or incorrect. In order to maintain synchronization between the two players, the client periodically asks the server for updated game state data, which enables each device's interface to reflect modifications like revealed letters, hangman updates, and game completion.
 
 ## System_requirements 
-### Hardware requriemwnts 
-### software requirements 
+### Hardware requriements 
+-  A mobile device that can run lightwieght mobile application, along with a touchscreen
+-  The device has to be able to run python
+-  The device has to have a standard screen size
+-  Enough storage to install any neccesary files
 
-## Mockups
+### software requirements 
+- A mobile friendly framework to run the game on
+- Connection to the internet to play multiplayer
+- A modern web browser capable of running HTML, CSS, and JavaScript
+- An active internet connection to enable multiplayer functionality.
+- A local or hosted server environment capable of running a Flask application.
+## Mock_ups_and_Storyboard
+<img width="622" height="537" alt="image" src="https://github.com/user-attachments/assets/c1912273-a284-4b3d-8fd2-06b54e31bccd" />
+<img width="611" height="530" alt="image" src="https://github.com/user-attachments/assets/de999896-7cf4-4f4c-b356-ed88ca97e0eb" />
+<img width="601" height="567" alt="image" src="https://github.com/user-attachments/assets/01b7129d-a0d0-4065-8f63-b3f8f17b4450" />
+<img width="401" height="827" alt="image" src="https://github.com/user-attachments/assets/e3a3e54a-2382-438d-b7f3-cd31bbdb865a" />
 
 ## Potential_risks_to_the_project_success 
 
