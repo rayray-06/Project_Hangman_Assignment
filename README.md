@@ -136,6 +136,35 @@ The multiplayer match in the game is managed using a server-side game state hand
 
 ## contribution to the project 
 ### Rayyan 
-### Maleeha 
+- Created the repo
+- wrote up the project overview
+- wrote up the project specification
+- created a target audience for the game
+- done functional requirements
+- done non functional requirements
+- done system software requirements
+- done system hardware requirements
+- created the structure for the readme file
+- created a test plan that we can add to throughout the project
+- delegating tasks to other team members and giving them deadlines to complete the work by
+- Created and wrote up 6 potential risks to the projects success(not including time management)
+- created and wrote up the software development strategy
+- completing game state management
+- started writing up the general structure of the HTML code
+- made the first draft of the game and tested different functions of the game
+- created 4 html pages for each part of the game which was used as a base to work the game up from
+- created the javascript needed for the polling to work
+- made the 2nd draft of the pyhton file to test the game(took aleehas first draft and tweaked it)
+-  restructured the readme file and added a table of contents 
 ### Bridget 
+- Created one detailed user profile
+-  Created 5 detailed mockups of how the game should look and aim to be 
+-  Created the basic storyboard of the game
+-  
 
+### Maleeha 
+- created one detailed  user profile
+- designed two informative flowcharts that describe how the game should flow
+- made the first draft of the python code from which rayyan developed
+- revamped rayyans version of the code to make a final working game in line with the mockups
+- redone the html files, javascript file and the python file 
