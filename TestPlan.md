@@ -37,7 +37,11 @@ webpage loads however the create and join room part should not be in the corner,
  ## 1st draft testing 
  **problems thoughout the python**
  1) <img width="590" height="169" alt="image" src="https://github.com/user-attachments/assets/a6357cdd-bac9-4744-9397-2e7146fe13d4" />
- the only id that is stored is current_player so the system cant tell which browser is allowed to guess 
+ the only id that is stored is current_player so the system cant tell which browser is allowed to guess
+
+2)<img width="350" height="73" alt="image" src="https://github.com/user-attachments/assets/a389ee9d-7613-494a-b5f4-11e5d3584ad4" />
+there is no limit on how many users can join the room 
+
 
  
 
