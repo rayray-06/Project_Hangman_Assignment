@@ -130,6 +130,7 @@ or this project we used an agile development approach, which involved breaking t
 <img width="743" height="614" alt="image" src="https://github.com/user-attachments/assets/de9600b3-9614-4ae0-b688-699c91d9d3c8" />
 
 ## Game_State_Management 
+The multiplayer match in the game is managed using a server-side game state handled by the Flask backend. When two players join the same room, they share a single game state stored on the server, including the current word, guessed letters, remaining attempts, and current player turn. Client devices regularly poll the server to retrieve updated game state information, ensuring that both players remain synchronised during gameplay. The game ends when the word is fully revealed or when the maximum number of incorrect attempts is reached, at which point the final result is displayed to both players.
 
 ## Future_improvements 
 
