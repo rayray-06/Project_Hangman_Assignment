@@ -115,8 +115,15 @@ The chosen word, guessed letters, remaining attempts, and current player turn ar
 <img width="401" height="827" alt="image" src="https://github.com/user-attachments/assets/e3a3e54a-2382-438d-b7f3-cd31bbdb865a" />
 
 ## Potential_risks_to_the_project_success 
+1) Technical skill gaps: some users may not be familiar or have much experience with the software being used in this project which could lead to challenges while implementing certain features e.g multiplayer.
+2) Multi player synchronisation issues: As the game is going to be running on different devices at the same time, there is a risk that the game states may become out of sync if the database doesn’t update correctly or quickly enough. 
+3) Internet connection issues: Multiplayer mode relies on stable internet connection. if internet connection is slow or unstable for one user that could cause delays or incorrect game updates.
+4) User interface challenges: If the ui is not designed clearly it users may be hard for users to navigate the game smoothly. Since the target audience is 13–20 clarity and simplicity are important.
+5) Handling player disconnection: if one player leaves the game mid match the system might not be able to handle or recognize the disconnection which could distrupt the current game session.
+6) Duplicate room codes: If the room code generator creates the same code twice by accident, two different games could end up sharing the same room and cause issues.
 
 ## Software_development_strategy
+
 
 ## Flowcharts 
 
