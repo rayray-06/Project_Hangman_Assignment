@@ -6,8 +6,8 @@
 | **check if the game is compatible on phone**| the homepage should load fine in its correct dimensions on mobile layout |see figure 4| ✅ Pass|
 | **check if the game is compatible on phone** | the create room/join room should be displayed correctly on phone layout|see figure 5| ❌fail|
 | **check if the game is compatible on phone** |check to see if the actual hangman game loads up | see figure 6| ✅ Pass|
-| **7** |. |. | ✅ Pass/❌fail|
-| **8** | .| .| ✅ Pass/❌fail|
+| **Create/Join Room buttons work** |The buttons should be usable and match with the layout |.see figure | ✅ Pass|
+| **Input room code into space** | The space allows for letters for be inputted| .| ✅ Pass/❌fail|
 | **9** |. |.| ✅ Pass/❌fail|
 | **10** | . |.| ✅ Pass/❌fail|
 |**11** | . |.| ✅ Pass/❌fail|
