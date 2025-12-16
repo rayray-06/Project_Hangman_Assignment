@@ -50,7 +50,7 @@ The primary target users for this project are people aged between 13 and 20 year
 <img width="567" height="362" alt="image" src="https://github.com/user-attachments/assets/d72b5e51-d698-4501-9d20-0f297d0b4d60" />
 <img width="686" height="564" alt="image" src="https://github.com/user-attachments/assets/a8e107db-35f4-4ecd-ab16-9053390d058e" />
 
-## Overall_specification 
+## Overall_specification
 ### user requirements
 - Users should be able to play the game easily on a mobile phone without needing extra setup
 - Users should be able to create a game and invite another player using a room code
