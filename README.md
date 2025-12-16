@@ -14,11 +14,11 @@ This project is a mobile-compatible, multiplayer version of the classic Hangman 
 
 [Mock ups](#Mock_ups) 
 
-[Potential risks to the project’s success](#Potential_risks_to_the_project’s_success)  
+[Potential risks to the project success](#Potential_risks_to_the_project_success)  
 
 [Flowcharts](#Flowchart) 
 
-[Game State Management(Will complete later)](#Game_State_Management)
+[Game State Management](#Game_State_Management)
 
 [Contribution to Project](#Contribution_to_Project)
 
@@ -27,7 +27,7 @@ This project is a mobile-compatible, multiplayer version of the classic Hangman 
 <a name="Functional_and_nonfunctional_requirements"/>
 <a name="System_requiremnets"/>
 <a name="Mock_ups"/>
-<a name="Potential_risks_to_the_project’s_success"/>
+<a name="Potential_risks_to_the_project_success"/>
 <a name="Software_development_strategy"/>
 <a name="Flowchart"/>
 <a name="Game_State_Management"/>
@@ -81,7 +81,7 @@ This project is a mobile-compatible, multiplayer version of the classic Hangman 
 
 
 
-## Potential_risks_to_the_project’s_success
+## Potential_risks_to_the_project_success
 1) Technical skill gaps: some users may not be familiar or have much experience with the software being used in this project which could lead to challenges while implementing certain features e.g multiplayer.
 2) Multi player synchronisation issues: As the game is going to be running on different devices at the same time, there is a risk that the game states may become out of sync if the database doesn’t update correctly or quickly enough. 
 3) Internet connection issues: Multiplayer mode relies on stable internet connection. if internet connection is slow or unstable for one user that could cause delays or incorrect game updates.
