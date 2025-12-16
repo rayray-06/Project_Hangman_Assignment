@@ -3,7 +3,7 @@
 | **Homepage loads** | the homepage should load up with 2 buttons and match the colour scheme of the mockups | see figure 1 | ✅ Pass |
 | **Navigate to play with freinds** |the page should load from the homepage to the play wiht freinds page and not break|see figure 2 | ✅ Pass |
 | **Category page loads** | the category page should load up with no errors | see figure 3| ❌fail |
-| **4**| . |.| ✅ Pass/❌fail |
+| **check if the game is compatible on phone**| the homepage should load fine in its correct dimensions on mobile layout |see figure 4| ✅ Pass|
 | **5** | . |.| ✅ Pass/❌fail|
 | **6** |.| .| ✅ Pass/❌fail|
 | **7** |. |. | ✅ Pass/❌fail|
@@ -24,6 +24,10 @@ The Create or Join Game screen loaded successfully after navigation from the hom
 
 *Figure 3* <img width="959" height="538" alt="image" src="https://github.com/user-attachments/assets/0d1f014f-2346-4cb4-ac20-ecac2bc1f3f2" />
 After the user creates the room their is a select category title however no options to chose from although the category file  is linked in the pyhton file. Howeber this is expected as category selection is handled on a seperate screen that will be created later. the game is being developed part by part so we are developing and testing as we go along.
+
+*figure 4* <img width="959" height="478" alt="image" src="https://github.com/user-attachments/assets/661a859c-fab2-4a01-b59f-4b8427b3d9de" />
+the hompeage sits perfectly o nthe iphone 14 pro max display with nothing moved around therefore this test result is successful 
+
 
 
 
