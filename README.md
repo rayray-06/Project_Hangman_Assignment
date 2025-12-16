@@ -47,6 +47,8 @@ This project is a mobile-compatible, multiplayer version of the classic Hangman 
 The primary target users for this project are people aged between 13 and 20 years old. This age group is familiar with mobile devices and web based games and is likely to enjoy simple interactive games that can be played casually with friends. The game is designed to be easy to understand with clear rules so that new users can start playing without needing instructions. Multiplayer functionality appeals to this age group as it allows them to play together using their own devices rather than sharing a single screen. The visual design and controls are kept simple to make the game accessible and enjoyable on mobile phones.
 
 ## User_Profiles 
+<img width="567" height="362" alt="image" src="https://github.com/user-attachments/assets/d72b5e51-d698-4501-9d20-0f297d0b4d60" />
+<img width="686" height="564" alt="image" src="https://github.com/user-attachments/assets/a8e107db-35f4-4ecd-ab16-9053390d058e" />
 
 ## Overall_specification 
 ### user requirements
