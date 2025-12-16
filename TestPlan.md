@@ -35,12 +35,21 @@ webpage loads however the create and join room part should not be in the corner,
  the actual hangman game loads up onto the phone ui and the format is still the same although the size looks smaller however that may be because it is being tested on phone view on chrome on a laptop
 
  ## 1st draft testing 
- **problems thoughout the python**
+ **problems thoughout the python, HTML and javascript**
  1) <img width="590" height="169" alt="image" src="https://github.com/user-attachments/assets/a6357cdd-bac9-4744-9397-2e7146fe13d4" />
   the only id that is stored is current_player so the system cant tell which browser is allowed to guess
 
 2) <img width="350" height="73" alt="image" src="https://github.com/user-attachments/assets/a389ee9d-7613-494a-b5f4-11e5d3584ad4" />
- there is no limit on how many users can join the room 
+ there is no limit on how many users can join the room
+
+3) <img width="346" height="65" alt="image" src="https://github.com/user-attachments/assets/aa30f1c1-a383-4b98-a438-01ae72c7712a" />
+issues with polling
+
+4) <img width="710" height="58" alt="image" src="https://github.com/user-attachments/assets/fcf596f7-16d9-47a3-b3d7-b7a7d0722b56" />
+ the fixed width would cause trouble whoile scrolling on mobile 
+
+ 
+
 
 
  
