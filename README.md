@@ -57,14 +57,14 @@ JavaScript – Handles client side logic, including user interaction and real ti
 ## Functional_and_nonfunctional_requirements
 ### functional requirements 
 - The system will allow for the game to start from he main menu
-- The system will allow users to input thier own word to use for the other player
+- The system will randomly select a word from a predefined word list
 - The game will display blank lines taht wouold indicate the legnth of the word and everytime a letter is guessed correctly the letter would fill in the blank
 - The game will reduce the number of attempts whne a player guesses wrong
 - When a guess is incorrect the hangman ui will change
 - The sysetm will not allow the same letter to be inputted twice
 - The system should detect when all attempts have been used ad should display a you lose screen
 - The system will allow one player to create an online room and another player to join using a code.
-- Both players’ devices will share the same game state through an online database.
+- Both players’ devices will share the same game state through the server.
 ### non-functional requirements 
 - The game should have a clear and visually apealling interface
 -  All buttons and text should be formatted properly for mobile screen size
@@ -80,7 +80,15 @@ JavaScript – Handles client side logic, including user interaction and real ti
 
 ### Software 
 - A mobile friendly framework to run the game on
-- connection to the internet to play multiplayer 
+- connection to the internet to play multiplayer
+
+## User requirments 
+
+## Human computer interaction(HCI)#
+
+## Game rules 
+
+## Game mechanics
 
 ## Mock_ups 
 <img width="622" height="537" alt="image" src="https://github.com/user-attachments/assets/c1912273-a284-4b3d-8fd2-06b54e31bccd" />
@@ -110,7 +118,7 @@ JavaScript – Handles client side logic, including user interaction and real ti
 
 
 ## Game_State_Management
-The multiplayer match in our game is managed via a straightforward state system. When two players enter the same room, they both attempt to guess the same word. The game begins in a waiting state until both players are connected, at which time it enters a playing state where each right guess earns the player one point. To keep both devices in sync, Firebase is used to update the shared game state, which includes disclosed letters, remaining attempts, and each player's score. The game is over and the scores are compared after the word is fully disclosed or all efforts are exhausted. If both scores are equal, the game is a draw; otherwise, the person with the greater score wins. The final state only displays the outcome to both players
+The multiplayer match in the game is managed using a server-side game state handled by the Flask backend. When two players join the same room, they share a single game state stored on the server, including the current word, guessed letters, remaining attempts, and current player turn. Client devices regularly poll the server to retrieve updated game state information, ensuring that both players remain synchronised during gameplay. The game ends when the word is fully revealed or when the maximum number of incorrect attempts is reached, at which point the final result is displayed to both players.
 
 ## Contribution_to_Project
 ### Rayyan:
