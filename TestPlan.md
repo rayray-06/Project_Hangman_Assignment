@@ -1,7 +1,7 @@
 | **Feature** | **Expected Result** | **Actual Result** | **Pass/Fail** |
 |--------------|--------------------|-------------------|---------------|
 | **Homepage loads** | the homepage should load up with 2 buttons and match the colour scheme of the mockups | see figure 1 | ✅ Pass |
-| **Navigate to play with freinds** |the page should load from the homepage to the play wiht freinds page and not break|see figure 2 | ✅ Pass |
+| **Navigate to play with friends** |the page should load from the homepage to the play wiht freinds page and not break|see figure 2 | ✅ Pass |
 | **Category page loads** | the category page should load up with no errors | see figure 3| ❌fail |
 | **check if the game is compatible on phone**| the homepage should load fine in its correct dimensions on mobile layout |see figure 4| ✅ Pass|
 | **check if the game is compatible on phone** | the create room/join room should be displayed correctly on phone layout|see figure 5| ❌fail|
@@ -39,6 +39,7 @@ the create/join page now matches the colour scheme of the game and has its butto
 **figure 8**  <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/3474fb70-e5e0-4377-8a80-37ac839a662e" />
 Instead of it saying what the word was or which player won, it shows for the next player to have their turn, this is unsuccessfull as the message should be shown
 
+**figure 9** 
 
 
 
