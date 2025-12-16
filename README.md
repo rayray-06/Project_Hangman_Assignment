@@ -163,7 +163,7 @@ The multiplayer match in the game is managed using a server-side game state hand
 - made the first draft of the game and tested different functions of the game
 - created 4 html pages for each part of the game which was used as a base to work the game up from
 - created the javascript needed for the polling to work
-- made the 2nd draft of the pyhton file to test the game(took aleehas first draft and tweaked it)
+- made the 2nd draft of the pyhton file to test the game(took maleehas first draft and tweaked it)
 -  restructured the readme file and added a table of contents 
 ### Bridget 
 - Created one detailed user profile
