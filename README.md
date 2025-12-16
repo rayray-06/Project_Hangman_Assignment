@@ -8,7 +8,7 @@ This project is a mobile-compatible, multiplayer version of the classic Hangman 
 
 [Technologies used ](#Technologies_used) 
 
-[Userprofiles](#User_profiles)  
+[User profiles](#User_profiles)  
 
 [Functionaland non functional requirements](#Functional_and_nonfunctional_requirements)  
 
