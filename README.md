@@ -29,7 +29,7 @@ This project is a mobile-compatible, multiplayer version of the classic Hangman 
 
 [Contribution to Project](#Contribution_to_Project)
 
-[Refrences](#Refrences)
+[References](#References)
 
 [Group evaluation](#Group_evaluation)
 
