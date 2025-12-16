@@ -134,7 +134,7 @@ The multiplayer match in the game is managed using a server-side game state hand
 
 ## Future_improvements 
 
-## contribution_to_the_project 
+## Contribution_to_Project
 ### Rayyan 
 - Created the repo
 - wrote up the project overview
