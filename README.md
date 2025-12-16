@@ -16,6 +16,8 @@ This project is a mobile-compatible, multiplayer version of the classic Hangman 
 
 [Potential risks to the project success](#Potential_risks_to_the_project_success)  
 
+[Software development strategy](#Software_development_strategy)
+
 [Flowcharts](#Flowchart) 
 
 [Game State Management](#Game_State_Management)
