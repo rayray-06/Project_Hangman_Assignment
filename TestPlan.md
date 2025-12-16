@@ -43,6 +43,9 @@ Instead of it saying what the word was or which player won, it shows for the nex
 **figure 9** <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/05b5b00f-0d5f-4349-86ec-95b325c71ab6" />
 The message shows that the user has inputted an incorrect format, and advises them to match the character format of the game 
 
+**figure 10** <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/50fdb4be-1cb9-48df-a8cb-ea6ba417d0e7" />
+
+
 
 
 
