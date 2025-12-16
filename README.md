@@ -160,7 +160,8 @@ The multiplayer match in the game is managed using a server-side game state hand
 - Created one detailed user profile
 -  Created 5 detailed mockups of how the game should look and aim to be 
 -  Created the basic storyboard of the game
--  
+-  contributed in a few tests
+-  redone the create/join page making it fit the colour scheme of the game and centering buttons for moblie layout
 
 ### Maleeha 
 - created one detailed  user profile
