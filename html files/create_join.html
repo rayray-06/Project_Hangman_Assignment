@@ -2,20 +2,111 @@
 <html>
 <head>
     <title>Create or Join</title>
+    <style>
+        body {
+            background: #9FE0E8;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            width: 320px;
+            text-align: center;
+        }
+
+        h1 {
+            color: white;
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
+
+        /* Homepage button style */
+        .btn {
+            background: #5ED6E3;
+            color: white;
+            border: none;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 14px;
+        }
+
+        .button-row {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+        .square-btn {
+            width: 100%;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+        }
+
+        /* Icon styling */
+        .icon {
+            width: 36px;
+            height: 36px;
+            background: white;
+            color: #5ED6E3;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .room-input {
+            width: 70%;
+            padding: 14px;
+            border-radius: 10px;
+            border: none;
+            font-size: 16px;
+            text-align: center;
+            text-transform: uppercase;
+            outline: none;
+        }
+    </style>
 </head>
+
 <body>
+<div class="container">
     <h1>Create or Join Room</h1>
 
-    <form action="/create_room" method="POST">
-        <button type="submit">Create Room</button>
-    </form>
+    <div class="button-row">
+        <form action="/create_room" method="POST" style="flex: 1;">
+            <button class="btn square-btn" type="submit">
+                <div class="icon">+</div>
+                CREATE ROOM
+            </button>
+        </form>
 
-    <br><br>
+        <form action="/join_room" method="POST" style="flex: 1;">
+            <button class="btn square-btn" type="submit">
+                <div class="icon">→</div>
+                JOIN ROOM
+            </button>
+        </form>
+    </div>
 
     <form action="/join_room" method="POST">
-        <input name="room" placeholder="ROOM CODE" maxlength="5" required>
-        <button type="submit">Join Room</button>
+        <input
+            class="room-input"
+            name="room"
+            placeholder="ROOM CODE"
+            maxlength="5"
+            required
+        >
     </form>
+</div>
 </body>
-
 </html>
