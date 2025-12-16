@@ -9,12 +9,11 @@ This project is a mobile-compatible, multiplayer version of the classic Hangman 
 [Functionaland non functional requirements](#Functional_and_nonfunctional_requirements)  
 [System_requiremnets](#System_requiremnets) 
 [Mock_ups](#Mock_ups) 
-[Potential_risks_to_the_project’s_success:(not_including_time_management)](#Potential_risks_to_the_project’s_success:(not_including_time_management)) 
+[Potential_risks_to_the_project’s_success:(not_including_time_management)](#Potential_risks_to_the_project’s_success:(not_including_time_management) 
 [Flowcharts](#Flowchart) 
-[Game_State_Management(Will_complete_later)](#Game_State_Management(Will_complete_later)) 
-[Contribution_to_Project](#Contribution_to_Project)) 
+[Game_State_Management(Will_complete_later)](#Game_State_Management(Will_complete_later)
+[Contribution_to_Project](#Contribution_to_Project)
 
-    
 <a name="Project description"/>
 <a name="User Profiles"/>
 <a name="Functional_and_nonfunctional_requirements"/>
