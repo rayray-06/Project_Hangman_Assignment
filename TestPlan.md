@@ -25,7 +25,7 @@ The Create or Join Game screen loaded successfully after navigation from the hom
 **Figure 3** <img width="959" height="538" alt="image" src="https://github.com/user-attachments/assets/0d1f014f-2346-4cb4-ac20-ecac2bc1f3f2" />
 After the user creates the room their is a select category title however no options to chose from although the category file  is linked in the pyhton file. Howeber this is expected as category selection is handled on a seperate screen that will be created later. the game is being developed part by part so we are developing and testing as we go along.
 
-**figure 4** <img width="959" height="478" alt="image" src="https://github.com/user-attachments/assets/661a859c-fab2-4a01-b59f-4b8427b3d9de" />
+**figure 4** <img width="959" height="478" alt="image" src="https://github.com/user-attachments/assets/661a859c-fab2-4a01-b59f-4b8427b3d9de" /> 
 the hompeage sits perfectly o nthe iphone 14 pro max display with nothing moved around therefore this test result is successful 
 
 **figure 5** <img width="958" height="479" alt="image" src="https://github.com/user-attachments/assets/f360ab62-5620-443d-a6c7-808ad0aa7d89" />
