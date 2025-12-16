@@ -123,10 +123,11 @@ The chosen word, guessed letters, remaining attempts, and current player turn ar
 6) Duplicate room codes: If the room code generator creates the same code twice by accident, two different games could end up sharing the same room and cause issues.
 
 ## Software_development_strategy
-
+or this project we used an agile development approach, which involved breaking the workload into smaller and more manageable tasks rather than attempting to complete everything at once. As a group, we focused on developing one part of the project at a time, such as the user interface, game logic, and multiplayer functionality, ensuring each section worked correctly before moving on to the next. This approach suited our project well because it allowed different team members to work on separate features in parallel without blocking progress. Working in short development cycles also helped us identify and fix issues early, rather than discovering problems at the end of the project. 
 
 ## Flowcharts 
-
+<img width="752" height="982" alt="image" src="https://github.com/user-attachments/assets/eac9f480-88ff-434f-9603-660342df4e73" />
+<img width="743" height="614" alt="image" src="https://github.com/user-attachments/assets/de9600b3-9614-4ae0-b688-699c91d9d3c8" />
 ## Game_State_Management 
 
 ## Future_improvements 
