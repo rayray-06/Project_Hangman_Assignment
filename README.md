@@ -18,7 +18,7 @@ This project is a mobile-compatible, multiplayer version of the classic Hangman 
 
 [Flowcharts](#Flowchart) 
 
-[Game State Management(Will complete later)](#Game_State_Management(Will_complete_later))
+[Game State Management(Will complete later)](#Game_State_Management)
 
 [Contribution to Project](#Contribution_to_Project)
 
@@ -30,7 +30,7 @@ This project is a mobile-compatible, multiplayer version of the classic Hangman 
 <a name="Potential_risks_to_the_project’s_success"/>
 <a name="Software_development_strategy"/>
 <a name="Flowchart"/>
-<a name="Game_State_Management(Will_complete_later)"/>
+<a name="Game_State_Management"/>
 <a name="Contribution_to_Project"/>
 
 
@@ -96,7 +96,7 @@ This project is a mobile-compatible, multiplayer version of the classic Hangman 
 <img width="743" height="614" alt="image" src="https://github.com/user-attachments/assets/de9600b3-9614-4ae0-b688-699c91d9d3c8" />
 
 
-## Game_State_Management(Will_complete_later) 
+## Game_State_Management
 The multiplayer match in our game is managed via a straightforward state system. When two players enter the same room, they both attempt to guess the same word. The game begins in a waiting state until both players are connected, at which time it enters a playing state where each right guess earns the player one point. To keep both devices in sync, Firebase is used to update the shared game state, which includes disclosed letters, remaining attempts, and each player's score. The game is over and the scores are compared after the word is fully disclosed or all efforts are exhausted. If both scores are equal, the game is a draw; otherwise, the person with the greater score wins. The final state only displays the outcome to both players
 
 ## Contribution_to_Project
