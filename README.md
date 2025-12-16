@@ -52,16 +52,38 @@ The primary target users for this project are people aged between 13 and 20 year
 
 ## Overall_specification 
 ### user requirements
-- Users should be able to play the game easily on a mobile phone without needing extra setup.
-- Users should be able to create a game and invite another player using a room code.
-- Users should be able to join a game from a different device using the provided code.
-- Users should be able to guess letters through an on screen input.
-- Users should be able to clearly see which letters have already been guessed.
-- Users should be able to see how many attempts they have remaining during the game.
-- Users should receive clear feedback when a guess is correct or incorrect.
-- Users should be informed when the game has ended and whether they have won or lost.
+- Users should be able to play the game easily on a mobile phone without needing extra setup
+- Users should be able to create a game and invite another player using a room code
+- Users should be able to join a game from a different device using the provided code
+- Users should be able to guess letters through an on screen input
+- Users should be able to clearly see which letters have already been guessed
+- Users should be able to see how many attempts they have remaining during the game
+- Users should receive clear feedback when a guess is correct or incorrect
+- Users should be informed when the game has ended and whether they have won or lost
 ### Functional requirments 
+- The system must allow a player to create a new multiplayer game
+- The system must generate a unique room code that can be shared with another player
+- The system must allow a second player to join an existing game using the room code
+- The system must randomly select a word from a predefined word list at the start of each game
+- The system must display blank placeholders to represent the length of the selected word
+- The system must reveal letters in the word when a correct guess is made
+- The system must reduce the number of remaining attempts when a guess is incorrect
+- The system must update the hangman visual after each incorrect guess
+- The system must prevent the same letter from being guessed more than once
+- The system must enforce turn based gameplay between two players.The system must detect when the word has been fully guessed and end the game
+- The system must detect when the maximum number of incorrect attempts has been reached and end the game
+- The system must allow the game to be reset once it has ended
+- The system must keep both players synchronised by sharing the same game state through the server
+
+
 ### Non functional requirements 
+- The game should have a clear and visually appealing user interface
+- The interface should be designed to work well on mobile screen sizes
+- The application should be simple and easy to understand for new users
+- The system should respond quickly to user input
+- The system should handle invalid input without crashing
+- The application should be lightweight to minimise battery and resource usage on mobile devices
+- The game should remain usable on different devices and screen resolutions
 ### Human computer interaction
 ### Game rules 
 ### Game mechanics 
