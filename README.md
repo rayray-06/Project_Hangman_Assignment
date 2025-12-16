@@ -178,7 +178,9 @@ The multiplayer match in the game is managed using a server-side game state hand
 
 ## References 
 we used some websites and watched videos to gain knowledge on how to start creating the game and using javascript. they will be linked below 
+
 Monetate.com. (2025). JavaScript Polling | Monetate KB. [online] Available at: https://docs.monetate.com/docs/use-javascript-to-poll-for-necessary-resources [Accessed 16 Dec. 2025].
+
 Versa Sync (2024). Hangman #multiplayer game using #python. [online] YouTube. Available at: https://www.youtube.com/watch?v=iltbnphQVro [Accessed 16 Dec. 2025].
 
 ## Group_evaluation 
